@@ -1,0 +1,11 @@
+load("@rules_java//java:java_library.bzl", "java_library")
+
+java_library(
+    name = "reftruth",
+    srcs = glob(["*.java"]),
+    visibility = ["//visibility:public"],
+    deps = [
+        "@maven//:com_google_code_findbugs_jsr305",
+        "@maven//:com_google_truth_truth",
+    ],
+)
