@@ -1,6 +1,6 @@
 package im.meumertzhe.reftruth;
 
-import javax.annotation.Nullable;
+import org.jspecify.annotations.Nullable;
 
 import static com.google.common.truth.Truth.assertAbout;
 import static im.meumertzhe.reftruth.ReferenceSubject.references;

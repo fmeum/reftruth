@@ -2,8 +2,7 @@ package im.meumertzhe.reftruth;
 
 import com.google.common.truth.FailureMetadata;
 import com.google.common.truth.Subject;
-
-import javax.annotation.Nullable;
+import org.jspecify.annotations.Nullable;
 
 public final class ReferenceSubject extends Subject {
   private final Universe universe;
